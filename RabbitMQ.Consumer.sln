@@ -5,13 +5,15 @@ VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{F2C27801-7692-48EA-BF5F-DBB39B7CBD38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Direct.Exchange.Consumer", "Direct.Exchange.Consumer\Direct.Exchange.Consumer.csproj", "{64745F74-3C5D-47B9-9CBE-24F30F90A2F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Direct.Exchange.Consumer", "Direct.Exchange.Consumer\Direct.Exchange.Consumer.csproj", "{64745F74-3C5D-47B9-9CBE-24F30F90A2F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fanout.Exchange.Consumer", "Fanout.Exchange.Consumer\Fanout.Exchange.Consumer.csproj", "{E70AAA73-577C-4597-9FA3-556301FA5B47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fanout.Exchange.Consumer", "Fanout.Exchange.Consumer\Fanout.Exchange.Consumer.csproj", "{E70AAA73-577C-4597-9FA3-556301FA5B47}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topic.Exchange.Consumer", "Topic.Exchange.Consumer\Topic.Exchange.Consumer.csproj", "{63E795E0-4DF4-4D53-80BF-93CD851D0BC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Topic.Exchange.Consumer", "Topic.Exchange.Consumer\Topic.Exchange.Consumer.csproj", "{63E795E0-4DF4-4D53-80BF-93CD851D0BC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Header.Exchange.Consumer", "Header.Exchange.Consumer\Header.Exchange.Consumer.csproj", "{6263E132-72F2-4A89-BEFD-89201EA51939}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Header.Exchange.Consumer", "Header.Exchange.Consumer\Header.Exchange.Consumer.csproj", "{6263E132-72F2-4A89-BEFD-89201EA51939}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Message.Templates.Consumer", "Message.Templates.Consumer\Message.Templates.Consumer.csproj", "{47AA3E6D-59D8-4FAA-8B79-E83B7302BEBB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{6263E132-72F2-4A89-BEFD-89201EA51939}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6263E132-72F2-4A89-BEFD-89201EA51939}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6263E132-72F2-4A89-BEFD-89201EA51939}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47AA3E6D-59D8-4FAA-8B79-E83B7302BEBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47AA3E6D-59D8-4FAA-8B79-E83B7302BEBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47AA3E6D-59D8-4FAA-8B79-E83B7302BEBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47AA3E6D-59D8-4FAA-8B79-E83B7302BEBB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
